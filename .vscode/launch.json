@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Simulation (FIXED)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "scripts.run_simulation",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    }
+  ]
+}
