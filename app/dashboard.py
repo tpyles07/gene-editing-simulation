@@ -1,5 +1,10 @@
 import streamlit as st
 
+import sys
+from pathlib import Path
+
+sys.path.append(str(Path(__file__).resolve().parent.parent))
+
 st.title("CRISPR-Cas9 Gene Editing Simulation Dashboard")
 
 st.write("Interactive simulation of CRISPR-Cas9 gene editing dynamics.")
